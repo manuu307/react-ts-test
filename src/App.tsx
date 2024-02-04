@@ -1,6 +1,5 @@
 import Container from '@mui/material/Container';
 import SearchBar from './components/SearchBar';
-import './App.css';
 import RecipeList from './components/RecipeList';
 import Stack from '@mui/material/Stack';
 import useMeals from './hooks/useMeals';
