@@ -9,7 +9,7 @@ function App() {
   const {mealsByFirstLetter, meals, error, fetchMealsByName, fetchMealsByFirstLetter } = useMeals();
   
   if (error) {
-    <h4>Ups... it has been an error!</h4>
+    <h4>Ups... there has been an error!</h4>
   }
   
   return (
